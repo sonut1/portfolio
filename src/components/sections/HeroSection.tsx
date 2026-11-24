@@ -195,9 +195,9 @@ export function HeroSection({
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="border border-[var(--border-subtle)] bg-[var(--bg-card)] p-2.5 sm:p-3 shadow-lg rounded-sm">
                 <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#0D1B2A] rounded-sm">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src={profile.heroImageUrl || "/images/sanjana-hero.JPG"}
+                        src="/images/sanjana-hero.JPG"
                         alt={`${profile.fullName} — ${profile.designation}`}
                         loading="eager"
                         decoding="async"
