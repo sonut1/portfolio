@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "package.json", "use": "@vercel/nextjs" }
-  ],
   "routes": [
     { "src": "/admin/:path*", "dest": "/admin/:path*" },
     { "src": "/api/:path*", "dest": "/api/:path*" },
