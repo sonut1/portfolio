@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-primary: #faf8f5;
+  --bg-secondary: #f2efe9;
+  --bg-card: #ffffff;
+  --text-primary: #0d1b2a;
+  --text-secondary: #2b303a;
+  --text-muted: #5c6473;
+  --border-subtle: #e3dfd6;
+  --accent-crimson: #b81d24;
+  --accent-crimson-hover: #97151b;
+  --accent-navy: #0d1b2a;
+}
+
+.dark {
+  --bg-primary: #08101c;
+  --bg-secondary: #0d1829;
+  --bg-card: #111f33;
+  --text-primary: #f4f1ea;
+  --text-secondary: #d4d8df;
+  --text-muted: #93a1b5;
+  --border-subtle: #1d2e46;
+  --accent-crimson: #df3b42;
+  --accent-crimson-hover: #c52a31;
+  --accent-navy: #e7ecf3;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection {
+  background-color: #b81d24;
+  color: #ffffff;
+}
