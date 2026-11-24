@@ -100,8 +100,8 @@ export const DEFAULT_PROFILE_DATA = {
   biography:
     "I am Sanjana Pandey, a Bachelor of Mass Communication student at Ranchi University (2024–2027) and an aspiring broadcast journalist committed to clear, responsible storytelling.\n\nThrough my News Reporting Internship at Global Awaaz News Channel (August 2026 – November 2026), I am building practical experience in newsroom workflows, story research, interview preparation, and on-camera presentation.\n\nDriven by curiosity about current affairs and public interest journalism, my focus lies in asking thoughtful questions, verifying facts carefully, and presenting stories that connect meaningfully with viewers.",
   aboutHighlights: JSON.stringify(DEFAULT_ABOUT_HIGHLIGHTS),
-  heroImageUrl: "/images/sanjana-hero.jpg",
-  aboutImageUrl: "/images/sanjana-about.jpg",
+  heroImageUrl: "/images/sanjana-hero.JPG",
+  aboutImageUrl: "/images/sanjana-about.JPG",
   resumeUrl: null as string | null,
   location: "Ranchi, Jharkhand, India",
   email: "sp6154817@gmail.com",

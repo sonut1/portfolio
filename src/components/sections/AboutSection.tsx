@@ -30,7 +30,7 @@ export function AboutSection({ profile }: { profile: ParsedProfile }) {
               <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#0D1B2A] rounded-sm">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                    src={profile.aboutImageUrl || "/images/sanjana-about.jpg"}
+                    src={profile.aboutImageUrl || "/images/sanjana-about.JPG"}
                     alt={`${profile.fullName} editorial portrait`}
                     loading="lazy"
                     decoding="async"

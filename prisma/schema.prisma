@@ -15,8 +15,8 @@ model SiteProfile {
   heroIntro          String
   biography          String
   aboutHighlights    String   @default("[]")
-  heroImageUrl       String   @default("/images/sanjana-hero.png")
-  aboutImageUrl      String   @default("/images/sanjana-about.png")
+  heroImageUrl       String   @default("/images/sanjana-hero.JPG")
+  aboutImageUrl      String   @default("/images/sanjana-about.JPG")
   resumeUrl          String?
   location           String   @default("Ranchi, Jharkhand, India")
   email              String   @default("[Editable: Email]")

@@ -197,7 +197,7 @@ export function HeroSection({
                 <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#0D1B2A] rounded-sm">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src={profile.heroImageUrl || "/images/sanjana-hero.jpg"}
+                        src={profile.heroImageUrl || "/images/sanjana-hero.JPG"}
                         alt={`${profile.fullName} — ${profile.designation}`}
                         loading="eager"
                         decoding="async"

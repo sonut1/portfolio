@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Telling Stories. Reporting Truth. Connecting People. Explore reporting reels, articles, and editorial experience of Sanjana Pandey.",
     images: [
       {
-        url: "/images/sanjana-hero.jpg",
+        url: "/images/sanjana-hero.JPG",
         width: 900,
         height: 1200,
         alt: "Sanjana Pandey — News Reporter, Journalist & News Anchor",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sanjana Pandey | News Reporter, Journalist & News Anchor",
     description: "Telling Stories. Reporting Truth. Connecting People.",
-    images: ["/images/sanjana-hero.jpg"],
+    images: ["/images/sanjana-hero.JPG"],
   },
 };
 
